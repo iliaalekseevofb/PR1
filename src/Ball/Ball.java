@@ -24,11 +24,11 @@ public class Ball {
   }
 
   // Methods
-  public void setColor(String c) {
-    this.color = c;
+  public void setColor(String color) {
+    this.color = color;
   }
-  public void setWeight(double w) {
-    this.weight = w;
+  public void setWeight(double weight) {
+    this.weight = weight;
   }
   public String getColor() {
     return this.color;

@@ -6,7 +6,7 @@ public class Book {
   private String author;
   private int pages;
 
-  // Constructor (overloaded)
+  // Constructors (overloaded)
   public Book() {
     name = "Any name";
     author = "Any author";
@@ -29,14 +29,14 @@ public class Book {
   }
 
   // Methods
-  public void setName(String n) {
-    this.name = n;
+  public void setName(String name) {
+    this.name = name;
   }
-  public void setAuthor(String a) {
-    this.author = a;
+  public void setAuthor(String author) {
+    this.author = author;
   }
-  public void setPages(int p) {
-    this.pages = p;
+  public void setPages(int pages) {
+    this.pages = pages;
   }
   public String getName() {
     return this.name;
@@ -47,7 +47,7 @@ public class Book {
   public int getPages() {
     return this.pages;
   }
- public String toString() {
+  public String toString() {
     return this.author + "'s " + this.name + " has " + this.pages + " pages";
- }
+  }
 }
