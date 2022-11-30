@@ -5,7 +5,7 @@ public class Ball {
   private String color;
   private double weight;
 
-  // Constructor (overloaded)
+  // Constructors (overloaded)
   public Ball() {
     color = "Red";
     weight = 300.0;
