@@ -1,9 +1,11 @@
 package Dog;
 
 public class Dog {
+  // Variables
   private String name;
   private int age;
 
+  // Constructors (overloaded)
   public Dog() {
     name = "Doggy";
     age = 0;
@@ -17,11 +19,12 @@ public class Dog {
     age = a;
   }
 
-  public void setAge(int a) {
-    this.age = a;
+  // Methods
+  public void setAge(int age) {
+    this.age = age;
   }
-  public void setName(String n) {
-    this.name = n;
+  public void setName(String name) {
+    this.name = name;
   }
   public int getAge() {
     return this.age;
