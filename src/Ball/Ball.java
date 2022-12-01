@@ -36,6 +36,8 @@ public class Ball {
   public double getWeight() {
     return this.weight;
   }
+
+  @Override
   public String toString() {
     return this.color + " ball has a weight of " + this.weight + " grams";
   }

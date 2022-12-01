@@ -26,16 +26,20 @@ public class Dog {
   public void setName(String name) {
     this.name = name;
   }
+
   public int getAge() {
     return this.age;
   }
   public String getName() {
     return this.name;
   }
-  public String toString() {
-    return this.name + ", age " + this.age;
-  }
+
   public void intoHumanAge() {
     System.out.println(this.name + "'s age in human ages is " + this.age * 7 + " years");
+  }
+
+  @Override
+  public String toString() {
+    return this.name + ", age " + this.age;
   }
 }

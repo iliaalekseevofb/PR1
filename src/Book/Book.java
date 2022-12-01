@@ -38,6 +38,7 @@ public class Book {
   public void setPages(int pages) {
     this.pages = pages;
   }
+
   public String getName() {
     return this.name;
   }
@@ -47,6 +48,8 @@ public class Book {
   public int getPages() {
     return this.pages;
   }
+
+  @Override
   public String toString() {
     return this.author + "'s " + this.name + " has " + this.pages + " pages";
   }
